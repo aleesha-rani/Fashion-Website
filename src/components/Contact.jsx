@@ -7,7 +7,9 @@ const Contact = () => {
   return (
     <div className="px-10 py-20 bg-[#f7f3ee] relative overflow-hidden">
 
-      {/* BACKGROUND CIRCLES */}
+
+
+
       <motion.div
         animate={{ y: [0, -20, 0], x: [0, 15, 0] }}
         transition={{ duration: 6, repeat: Infinity }}
@@ -20,7 +22,8 @@ const Contact = () => {
         className="w-60 h-60 bg-pink-400 rounded-full absolute top-20 -right-10 opacity-20 blur-3xl"
       />
 
-      {/* PAGE STARS */}
+
+
       <motion.div
         animate={{ rotate: 360, y: [0, -15, 0] }}
         transition={{ duration: 5, repeat: Infinity }}
@@ -37,7 +40,6 @@ const Contact = () => {
         ✦
       </motion.div>
 
-      {/* HEADING */}
       <div className="text-center relative z-10">
         <p className="text-pink-600 font-semibold text-lg">Contact Us</p>
 
@@ -51,13 +53,10 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* MAIN CONTENT */}
       <div className="grid md:grid-cols-2 gap-10 mt-16 relative z-10">
-
         {/* LEFT SIDE */}
         <div className="bg-white p-10 rounded-[30px] shadow-md relative overflow-hidden">
 
-          {/* LEFT BOX STARS */}
           <motion.div
             animate={{ y: [0, -10, 0], rotate: 360 }}
             transition={{ duration: 4, repeat: Infinity }}
